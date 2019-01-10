@@ -1,0 +1,474 @@
+html,
+body {
+    height: 100%;
+    background-color: black;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 15px 60px;
+}
+
+.wrap > .container {
+    padding: 0 0 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+.logo {
+    background-image: url("../images/headerbg.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    text-align: center;
+}
+
+.company-name {
+    font-size: 40px;
+    text-align: center;
+}
+
+.company-name-1 {
+    color: #90ff3c;
+}
+
+.company-name-2 {
+    color: #d5e937;
+}
+
+.phone {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.discount {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.phone-label {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.phone-input {
+    width: 95%;
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.btn-call-back {
+    width: 95%;
+    color: #90ff3c;
+    margin: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.links {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-grid {
+    color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cart {
+    color: #90ff3c;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cart-window {
+    display: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    height: 860px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+
+.fatimes {
+    margin-top: 2%;
+    margin-left: 80%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.cart-header {
+    text-align: center;
+}
+
+.cart-content {
+    font-size: 16px;
+}
+
+.total-sum {
+    color: #90ff3c;
+    cursor: pointer;
+}
+
+.input1 {
+    margin-top: 10px;
+}
+
+.name-order {
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.phone-order {
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.question {
+    width: 90%;
+    color: white;
+    font-size: 20px;
+}
+
+.check-active-line {
+   font-size: 20px;
+}
+
+.check-active {
+    color: #90ff3c;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.email-input {
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.address-input {
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.comment-input {
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.btn-order {
+    width: 90%;
+    color: #90ff3c;
+    font-size: 30px;
+    background-color: transparent;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1367px) {
+    .delivery {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+    }
+    .picture-meal {width: 650px;}
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto auto;
+    }
+    .grid-item {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+    .meal-name {
+        color: white;
+        font-size: 35px;
+    }
+    .meal-description {
+        color: white;
+        font-size: 30px;
+    }
+    .meal-count {
+        width: 50px;
+        color: white;
+        background-color: transparent;
+    }
+    .weight {
+        font-size: 30px;
+        color: white;
+        display: inline;
+        margin-left: 20px;
+    }
+    .price {
+        font-size: 30px;
+        color: #90ff3c;
+        display: inline;
+        margin-left: 100px;
+    }
+    .btn-buy {
+        display: inline;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .footer {
+        color: white;
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width: 1366px) {
+    .delivery {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+    }
+    .picture-meal {width: 650px;}
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto;
+    }
+    .grid-item {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+    .meal-name {
+        color: white;
+        font-size: 35px;
+    }
+    .meal-description {
+        color: white;
+        font-size: 30px;
+    }
+    .meal-count {
+        width: 50px;
+        color: white;
+        background-color: transparent;
+    }
+    .weight {
+        font-size: 30px;
+        color: white;
+        display: inline;
+        margin-left: 20px;
+    }
+    .price {
+        font-size: 30px;
+        color: #90ff3c;
+        display: inline;
+        margin-left: 100px;
+    }
+    .btn-buy {
+        display: inline;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .footer {
+        color: white;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .delivery {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+    .picture-meal {width: 300px;}
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto;
+    }
+    .grid-item {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    .meal-name {
+        color: white;
+        font-size: 20px;
+    }
+    .meal-description {
+        color: white;
+        font-size: 15px;
+    }
+    .meal-count {
+        width: 50px;
+        color: white;
+        background-color: transparent;
+    }
+    .weight {
+        font-size: 15px;
+        color: white;
+        display: inline;
+        margin-left: 10px;
+    }
+    .price {
+        font-size: 15px;
+        color: #90ff3c;
+        display: inline;
+        margin-left: 10px;
+    }
+    .btn-buy {
+        display: inline;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .footer {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.login {
+    color: white;
+}
+
+.admin {
+    color: white;
+}
+
+.adminmenu {
+    background-color: black;
+}
+
+.viewmenu {
+    color: white;
+}
+
+.updatemenu {
+    color: white;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
